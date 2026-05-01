@@ -33,7 +33,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Clientes</a>
+                        <a class="nav-link" href="<?= base_url('/index.php/cliente/clin') ?>">Clientes</a>
                     </li>
 
                     <li class="nav-item">

@@ -21,4 +21,6 @@ class Home extends BaseController
 
         return view('perfiles', $data);
     }
+
+    
 }
