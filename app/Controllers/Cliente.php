@@ -19,7 +19,7 @@ class Cliente extends BaseController
 
         public function guardar()
     {
-        $abogadoModel = new ClienteModel();
+        $clienteModel = new ClienteModel();
         $data = array(
             'nombre' => $this->request->getPost('nombres'),
             'apellido' => $this->request->getPost('apellidos'),
@@ -28,7 +28,7 @@ class Cliente extends BaseController
             'direccion' => $this->request->getPost('direccion'),
             'correo' => $this->request->getPost('correo'),
         );
-        $abogadoModel->insert($data);
+        $clienteModel->insert($data);
         return redirect()->to('cliente/clin');
     }
 }
