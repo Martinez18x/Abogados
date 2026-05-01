@@ -13,4 +13,12 @@ class Home extends BaseController
         $data = array("todos" => $alumnoModel->findAll());
         return view('abogados', $data);
     }
+
+     public function perfil()
+    {
+        $abogadoModel = new \App\Models\AbogadoModel();
+        $data['todos'] = $abogadoModel->findAll();
+
+        return view('perfiles', $data);
+    }
 }

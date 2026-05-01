@@ -1,0 +1,14 @@
+CRITICAL - 2026-05-01 04:11:56 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: abogado/perfil]
+in APPPATH\Views\Perfiles.php on line 18.
+ 1 APPPATH\Views\Perfiles.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\Abogados\\app\\Views\\Perfiles.php', 18)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Abogados\\app\\Views\\Perfiles.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('perfiles', [], true)
+ 5 APPPATH\Controllers\Abogado.php(34): view('perfiles', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Abogado->perfil()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Abogado))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

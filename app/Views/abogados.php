@@ -2,8 +2,8 @@
 
 <?= $this->section('content') ?>
 <div class="container-fluid px-0 d-flex justify-content-between align-items-center">
-    <span class="fs-4 fw-bold text-dark">Nuevo Alumno</span>
-    <a href="<?= base_url('localhost/abogados/proyecto/public/abogado/nuevo_abogado') ?>" class="btn btn-primary btn-lg shadow-sm d-inline-flex align-items-center gap-2">
+    <span class="fs-4 fw-bold text-dark">Tabla de Abogados</span>
+    <a href="<?= base_url('/index.php/abogado/nuevo') ?>" class="btn btn-primary btn-lg shadow-sm d-inline-flex align-items-center gap-2">
         <i class="bi bi-plus-lg"></i> Nuevo Abogado
     </a>
 </div>
