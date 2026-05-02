@@ -17,7 +17,7 @@ class Cliente extends BaseController
         return view('cliente/nuevo_cliente');
     }
 
-        public function guardar()
+    public function guardar()
     {
         $clienteModel = new ClienteModel();
         $data = array(

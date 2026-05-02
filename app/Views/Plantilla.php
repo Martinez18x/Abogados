@@ -37,7 +37,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Casos</a>
+                        <a class="nav-link" href="<?= base_url('/index.php/casos/caso') ?>">Casos</a>
                     </li>
 
                     <li class="nav-item">

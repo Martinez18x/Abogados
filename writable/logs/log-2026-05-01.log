@@ -21,3 +21,73 @@ in APPPATH\Controllers\Cliente.php on line 11.
  4 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-05-01 19:33:29 --> ErrorException: Undefined array key "fecha"
+[Method: GET, Route: casos/caso]
+in APPPATH\Views\Casos.php on line 34.
+ 1 APPPATH\Views\Casos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fecha"', 'C:\\xampp\\htdocs\\Abogados\\app\\Views\\Casos.php', 34)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Abogados\\app\\Views\\Casos.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('Casos', [], true)
+ 5 APPPATH\Controllers\Casos.php(13): view('Casos', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Casos->caso()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Casos))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-05-01 19:47:04 --> ErrorException: Undefined variable $todos
+[Method: GET, Route: casos/iron]
+in APPPATH\Views\casos\caso_nuevo.php on line 28.
+ 1 APPPATH\Views\casos\caso_nuevo.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $todos', 'C:\\xampp\\htdocs\\Abogados\\app\\Views\\casos\\caso_nuevo.php', 28)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Abogados\\app\\Views\\casos\\caso_nuevo.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('casos/caso_nuevo', [], true)
+ 5 APPPATH\Controllers\Casos.php(18): view('casos/caso_nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Casos->iron()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Casos))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-05-01 19:49:17 --> ErrorException: Undefined variable $clientes
+[Method: GET, Route: casos/iron]
+in APPPATH\Views\casos\caso_nuevo.php on line 28.
+ 1 APPPATH\Views\casos\caso_nuevo.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'C:\\xampp\\htdocs\\Abogados\\app\\Views\\casos\\caso_nuevo.php', 28)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Abogados\\app\\Views\\casos\\caso_nuevo.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('casos/caso_nuevo', [], true)
+ 5 APPPATH\Controllers\Casos.php(18): view('casos/caso_nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Casos->iron()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Casos))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-05-01 19:58:38 --> ErrorException: Undefined variable $clientes
+[Method: GET, Route: casos/iron]
+in APPPATH\Views\casos\caso_nuevo.php on line 15.
+ 1 APPPATH\Views\casos\caso_nuevo.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'C:\\xampp\\htdocs\\Abogados\\app\\Views\\casos\\caso_nuevo.php', 15)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Abogados\\app\\Views\\casos\\caso_nuevo.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('casos/caso_nuevo', [], true)
+ 5 APPPATH\Controllers\Casos.php(18): view('casos/caso_nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Casos->iron()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Casos))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2026-05-01 20:01:56 --> ErrorException: Undefined variable $todos
+[Method: GET, Route: casos/iron]
+in APPPATH\Views\casos\caso_nuevo.php on line 28.
+ 1 APPPATH\Views\casos\caso_nuevo.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $todos', 'C:\\xampp\\htdocs\\Abogados\\app\\Views\\casos\\caso_nuevo.php', 28)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\xampp\\htdocs\\Abogados\\app\\Views\\casos\\caso_nuevo.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1250): CodeIgniter\View\View->render('casos/caso_nuevo', [], true)
+ 5 APPPATH\Controllers\Casos.php(18): view('casos/caso_nuevo')
+ 6 SYSTEMPATH\CodeIgniter.php(951): App\Controllers\Casos->iron()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Casos))
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
